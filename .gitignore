@@ -1,0 +1,87 @@
+# Rust compilation artifacts
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+# Uncomment the following line if you're building a library
+# Cargo.lock
+
+# Rust toolchain files
+rust-toolchain
+rust-toolchain.toml
+
+# IDE/Editor specific files
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ IDEA / CLion / Rust Rover
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# OS-specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+.#*
+\#*\#
+
+# Environment variables
+.env
+.env.local
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist/
+/build/
+/release/
+/debug/
+
+/target
